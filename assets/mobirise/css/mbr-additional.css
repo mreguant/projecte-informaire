@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1094,26 +1094,6 @@ a {
     left: -1rem;
   }
 }
-.cid-s48MCQYojq {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #72b244;
-}
-.cid-s48MCQYojq .mbr-section-title {
-  text-align: center;
-}
-.cid-s48MCQYojq .mbr-text,
-.cid-s48MCQYojq .mbr-section-btn {
-  color: #232323;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  .cid-s48MCQYojq .mbr-section-title,
-  .cid-s48MCQYojq .mbr-section-btn,
-  .cid-s48MCQYojq .mbr-text {
-    text-align: center;
-  }
-}
 .cid-sDXDEx2XHK {
   padding-top: 4rem;
   padding-bottom: 2rem;
@@ -1221,22 +1201,6 @@ a {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
-}
-.cid-sDXG9fJT6B {
-  padding-top: 2rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sDXG9fJT6B .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sDXG9fJT6B .row {
-  flex-direction: row-reverse;
-}
-.cid-sDXG9fJT6B img {
-  width: 100%;
 }
 .cid-sFeJvoKu6z {
   padding-top: 45px;
@@ -3287,7 +3251,7 @@ a {
 }
 .cid-sF2LWHmooM {
   padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background: #fafafa;
 }
 .cid-sF2LWHmooM .team-card {
