@@ -918,11 +918,6 @@ blockquote {
   opacity: 1;
 }body {
   font-family: Jost;
-  font-style: normal;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #232323;
-  position: relative;
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
