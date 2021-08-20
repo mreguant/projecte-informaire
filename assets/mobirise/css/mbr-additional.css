@@ -41,6 +41,14 @@ body {
 .display-7 > .mbr-iconfont {
   font-size: 1.625rem;
 }
+.display-8 {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.display-8 > .mbr-iconfont {
+  font-size: 1.125rem;
+}
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
@@ -1722,6 +1730,9 @@ a {
 }
 .cid-sFkn7aUcHC .copyright > p {
   text-align: left;
+}
+.cid-sFkn7aUcHC .links P {
+  text-align: right;
 }
 .cid-sFeZ1M0rtN {
   z-index: 1000;
